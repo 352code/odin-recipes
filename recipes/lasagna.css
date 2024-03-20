@@ -1,11 +1,21 @@
+/* CSS Classes and ID's */
+/* "#" is ID "." is Class */
 #list {
     color: blueviolet;
     text-align: center;
+    background-color: aliceblue;
+    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-#title {
+
+
+.title {
     color: red;
 text-align: center;
+background-color: cadetblue;
+margin-left: 250px;
+margin-right: 250px;
 }
 
 
@@ -15,7 +25,7 @@ ul {
 
 body {
     background-color: burlywood;
-    
+    border: 2px solid red;
 }
 
 
@@ -24,7 +34,22 @@ body {
 
 }
 
-#cooking {
+.cooking {
     text-align: center;
     list-style-position: inside;
+    background: lightpink;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.footer {
+    text-align: center;
+    background: Lightpink;  
+    width: fit-content;
+}
+
+
+  header {
+    margin-left: 25px;
+    margin-top: 25px;
+  }
