@@ -1,55 +1,164 @@
 /* CSS Classes and ID's */
 /* "#" is ID "." is Class */
-#list {
+.list {
     color: blueviolet;
     text-align: center;
     background-color: aliceblue;
-    padding-bottom: 10px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+
+
+.list-items {
+    color: blueviolet;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+.list-items {
+    text-align: center;
+}
 
 
 .title {
     color: red;
 text-align: center;
-background-color: cadetblue;
+background-color: aqua;
 margin-left: 250px;
 margin-right: 250px;
 }
 
 
 ul {
-    list-style: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px      ;
+    list-style: inside;
+    padding-bottom: 10px;
 }
 
+
 body {
-    background-color: burlywood;
+    background: rgb(69,206,252);
+    background: linear-gradient(90deg, rgba(69,206,252,1) 0%, rgba(253,29,29,1) 50%, rgba(69,206,252,1) 100%);
     border: 2px solid red;
-}
+    margin: 0 auto;
+    
+    text-align: center;
+ }   
+
 
 
 .img {
     text-align: center;
-
+    margin-bottom: 50px;
+    width: auto;
 }
 
 .cooking {
     text-align: center;
-    list-style-position: inside;
+    list-style-position:inside;
     background: lightpink;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .footer {
     text-align: center;
-    background: Lightpink;  
+    background: blue;
     width: fit-content;
 }
 
 
   header {
-    margin-left: 25px;
-    margin-top: 25px;
-  }
+    display: block;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;   
+    
+    
+}
+
+.home {
+    font-size: 100px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: aquamarine;   
+    display: block;
+    margin-bottom: 100px;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ol {
+    margin: 0px;
+    
+}
+
+/* INDEX PAGE CSS*/
+
+
+  
+
+section {
+    margin-bottom: 50px;
+    background-color: red;
+}
+
+.lasagna {
+ padding: 80px;
+ margin: 5px;
+ background-image: url(../pics/lasagnajpeg);
+ font-size: 20px;
+ background-size: 100%;
+ background-position: 0.0;
+ background-repeat: no-repeat;
+ color: white;
+ border-radius: 20px;
+ 
+}
+.nugget {
+    padding: 80px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-image: url(../pics/dino.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0.0;
+    color: white;
+}
+.nugget:hover {
+ size: 500%;
+
+}
+
+ .banner {
+    background-color: aliceblue;
+ }
+
+ .lasbutton {
+    width: 200px;
+    height: auto;
+    
+}
+
+
+ .hot {
+    background-image: url(../pics/hot-face.png);
+    background-size: 10%;
+ }
